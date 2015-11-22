@@ -1,0 +1,28 @@
+{
+  "name": "hands-on-react-native-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cngroupdk/hands-on-react-native.git"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/cngroupdk/hands-on-react-native/issues"
+  },
+  "homepage": "https://github.com/cngroupdk/hands-on-react-native#readme",
+  "dependencies": {
+    "ramda": "0.18.0",
+    "twitter": "1.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.8.1"
+  }
+}
