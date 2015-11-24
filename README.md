@@ -9,6 +9,6 @@ Server API: http://46.101.203.134/simple.json
 ## Steps 1
 
 ```bash
-npm i -g react-native
+npm i -g react-native-cli
 react-native init HandsOnReactNative
 ```
