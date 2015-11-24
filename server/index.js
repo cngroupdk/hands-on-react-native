@@ -13,7 +13,7 @@ var client = new Twitter({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-var MAIN_TAG = 'reactjs';
+var MAIN_TAG = 'handsonrn';
 var OUTPUT_ROOT = path.join(__dirname, 'output');
 
 var params = {
