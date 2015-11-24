@@ -52,33 +52,49 @@ function writeOutputFile(now, outputFilename, outputFilenameSuffix, outputData) 
   });
 }
 
+function processAndWriteStatuses(statuses, statusMapCallback, now, outputFilenameSuffix) {
+    var processedStatuses = R.map(statusMapCallback, statuses);
+    var selectedProcessedStatuses = R.reject(status => status._hashtags.length < 1, processedStatuses)
+    var groupedStatuses = R.groupBy(R.path(['_hashtags', 0]), selectedProcessedStatuses);
+
+    var outputFilename = dateFormat(now, 'yyyy-mm-dd-hh-MM-ss') + '-' + outputFilenameSuffix;
+    var outputData = {
+      'groups': groupedStatuses,
+      'filename': outputFilename,
+    };
+    writeOutputFile(now, outputFilename, outputFilenameSuffix, outputData);
+    return outputData;
+}
+
+function getHastags(status) {
+  return R.reject(R.equals(MAIN_TAG), R.map(R.prop('text'), R.path(['entities', 'hashtags'], status))) || [];
+}
+
 function searchFofMatchingStatusses() {
   client.get('search/tweets', params, function(error, tweets, response) {
     if (!error) {
       var statuses = tweets.statuses;
-      var processedStatuses = R.map((status) => {
+      var now = new Date();
+      console.log('---- fetched at:', now);
+
+      var outputFilenameSuffix = 'simple.json'
+
+      processAndWriteStatuses(statuses, (status) => {
         return {
-          _hashtags: R.reject(R.equals(MAIN_TAG), R.map(R.prop('text'), R.path(['entities', 'hashtags'], status))) || [],
+          _hashtags: getHastags(status),
           user: R.pick(['screen_name', 'profile_image_url_https'], status.user),
           text: status.text,
           created_at: status.created_at,
         };
-      }, statuses);
-      var selectedProcessedStatuses = R.reject(status => status._hashtags.length < 1, processedStatuses)
-      var groupedStatuses = R.groupBy(R.path(['_hashtags', 0]), selectedProcessedStatuses);
+      }, now, 'simple.json');
 
-      console.log('---- fetched at:', Date());
-      console.log(JSON.stringify(Object.keys(groupedStatuses), null));
+      var outputData = processAndWriteStatuses(statuses, (status) => {
+        return R.merge(status, {
+          _hashtags: getHastags(status),
+        });
+      }, now, 'full.json');
 
-      var now = new Date();
-      var outputFilenameSuffix = 'simple.json'
-      var outputFilename = dateFormat('yyyy-mm-dd-hh-MM-ss') + '-' + outputFilenameSuffix;
-      var outputData = {
-        'groups': groupedStatuses,
-        'filename': outputFilename,
-      };
-
-      writeOutputFile(now, outputFilename, outputFilenameSuffix, outputData);
+      console.log(JSON.stringify(Object.keys(outputData.groups), null));
     } else {
       console.error('Twitter API Error:', error);
     }
