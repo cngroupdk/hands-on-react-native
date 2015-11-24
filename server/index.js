@@ -67,7 +67,7 @@ function processAndWriteStatuses(statuses, statusMapCallback, now, outputFilenam
 }
 
 function getHastags(status) {
-  return R.reject(R.equals(MAIN_TAG), R.map(R.prop('text'), R.path(['entities', 'hashtags'], status))) || [];
+  return R.reject(R.equals(MAIN_TAG), R.map((hashtag) => R.toLower(R.prop('text', hashtag)), R.path(['entities', 'hashtags'], status))) || [];
 }
 
 function searchFofMatchingStatusses() {
