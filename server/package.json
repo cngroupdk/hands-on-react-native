@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "./node_modules/.bin/nodemon index.js"
+    "watch": "./node_modules/.bin/nodemon --ignore output index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/cngroupdk/hands-on-react-native#readme",
   "dependencies": {
+    "dateformat": "^1.0.12",
+    "lnf": "^1.2.0",
+    "mkdirp": "^0.5.1",
     "ramda": "0.18.0",
     "twitter": "1.2.5"
   },
