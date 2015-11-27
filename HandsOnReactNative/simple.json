@@ -1,0 +1,84 @@
+{
+  "groups": {
+    "noragamiaragoto": [
+      {
+        "_hashtags": [
+          "noragamiaragoto"
+        ],
+        "user": {
+          "screen_name": "buri_buster",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/188207798/827_3048_normal.jpg"
+        },
+        "text": "#handsonrn #NoragamiAragoto",
+        "created_at": "Tue Nov 24 12:19:06 +0000 2015"
+      }
+    ],
+    "reactnative": [
+      {
+        "_hashtags": [
+          "reactnative"
+        ],
+        "user": {
+          "screen_name": "JeffoSzlezak",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522733601964564480/ClwEUZK7_normal.jpeg"
+        },
+        "text": "JSX is like a healthy vegetable that tastes like decadent chocolate cake. You feel guilty, but it’s good for you. #handsonrn #reactNative",
+        "created_at": "Tue Nov 24 12:12:11 +0000 2015"
+      }
+    ],
+    "codelikehell": [
+      {
+        "_hashtags": [
+          "codelikehell"
+        ],
+        "user": {
+          "screen_name": "tommmetz",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/2581886137/w9e1g1el4i3xi0lskaa6_normal.jpeg"
+        },
+        "text": "We organize \"Hands on React native\" today, wanna come? https://t.co/w0WDt56S9R #handsonrn #codelikehell :-)",
+        "created_at": "Tue Nov 24 12:10:11 +0000 2015"
+      }
+    ],
+    "today": [
+      {
+        "_hashtags": [
+          "today"
+        ],
+        "user": {
+          "screen_name": "heracek",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/21852372/g4qMbKQ-J0u_Ymb_Q2ZcBmILbNWVOVbKzmexb02mHj-C2PVVoAj7tT4qvMOZ-0ff_normal.jpg"
+        },
+        "text": "Hands on React Native #today #handsonrn",
+        "created_at": "Tue Nov 24 11:58:56 +0000 2015"
+      }
+    ],
+    "hashtaghorror": [
+      {
+        "_hashtags": [
+          "hashtaghorror"
+        ],
+        "user": {
+          "screen_name": "raiven66",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/2013902211/image_normal.jpg"
+        },
+        "text": "Today we are about to get Reactively Native!\n#HandsOnRN #hashtaghorror",
+        "created_at": "Tue Nov 24 11:30:20 +0000 2015"
+      }
+    ],
+    "excited": [
+      {
+        "_hashtags": [
+          "excited",
+          "nervous"
+        ],
+        "user": {
+          "screen_name": "lenkavon",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/661579706291134464/JnI8e3Y7_normal.jpg"
+        },
+        "text": "In the middle of preparation of mini-talks for todays #handsonrn - #excited and #nervous at the same time",
+        "created_at": "Tue Nov 24 11:09:36 +0000 2015"
+      }
+    ]
+  },
+  "filename": "2015-11-24-08-15-14-simple.json"
+}

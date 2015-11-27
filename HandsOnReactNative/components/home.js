@@ -7,11 +7,18 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+import DATA from '../simple.json';
+import Header from './header';
+import MessageCell from './message-cell';
+
 const styles = StyleSheet.create({
   container: {
     paddingTop: 20,
     flex: 1,
-    flexDirection: 'column',
+  },
+  loadingContainer: {
+    justifyContent: 'center',
+    alignSelf: 'center',
   },
   stickyHeader: {
     flex: 1,
@@ -36,18 +43,16 @@ const styles = StyleSheet.create({
   },
 });
 
-//import DATA from './2015-11-24-11-50-50-simple.json'
-import Header from './header'
-import MessageCell from './message-cell'
-
 export default class Home extends React.Component {
 
   constructor(props) {
     super(props);
+
     const ds = new ListView.DataSource({
       rowHasChanged: (r1, r2) => r1 !== r2,
       sectionHeaderHasChanged: (s1, s2) => s1 !== s2,
     });
+
     this.state = {
       ds,
       data: null,
@@ -60,18 +65,18 @@ export default class Home extends React.Component {
   }
 
   _refreshData() {
-    this.setState({isLoading: true})
-    fetch("http://46.101.203.134/simple.json").then((response) => {
-      return response.json();
-    }).then((json) => {
-      this.setState({data: json, isLoading: false});
-    })
-  }
+    this.setState({
+      isLoading: true,
+    });
 
-  _renderRow(message) {
-    return (
-      <MessageCell message={message} />
-    )
+    fetch('http://46.101.203.134/simple.json').then(response => {
+      return response.json();
+    }).then(json => {
+      this.setState({
+        data: json,
+        isLoading: false,
+      });
+    });
   }
 
   _renderSectionHeader(sectionData, sectionId) {
@@ -79,45 +84,44 @@ export default class Home extends React.Component {
       <View style={styles.stickyHeader}>
         <Text style={styles.stickyHeaderText}>#{sectionId}</Text>
       </View>
-    )
-  }
-
-  _renderHeader(groups) {
-    return (
-      <Header groups={groups}/>
-    )
+    );
   }
 
   _renderReloadButton() {
     return (
       <View style={styles.reloadButton}>
-        <TouchableOpacity onPress={()=>{this._refreshData()}}>
-        <Text style={styles.reloadButtonText}>Reload</Text>
+        <TouchableOpacity onPress={this._refreshData.bind(this)}>
+          <Text style={styles.reloadButtonText}>Reload</Text>
         </TouchableOpacity>
       </View>
-    )
+    );
+  }
+
+  _renderLoading() {
+    return (
+      <View style={[styles.container, styles.loadingContainer]}>
+        <Text>Loading....</Text>
+      </View>
+    );
   }
 
   render() {
-    if (!this.state.data) {
-      return (
-        <View style={styles.container}>
-          <Text>Loading....</Text>
-        </View>
-      )
+    // const [data, isLoading] = [DATA, false];
+    const {data, isLoading} = this.state;
+    if (!data || isLoading) {
+      return this._renderLoading();
     }
-    const data = this.state.data;
-    const groups = Object.keys(data)
+
     const dataSource = this.state.ds.cloneWithRowsAndSections(data.groups);
     return (
       <View style={styles.container}>
         <ListView
-          renderHeader={() => this._renderHeader(data.groups)}
           dataSource={dataSource}
-          renderRow={this._renderRow.bind(this)}
-          renderSectionHeader={this._renderSectionHeader.bind(this)} />
+          renderHeader={() => <Header groups={data.groups}/>}
+          renderSectionHeader={this._renderSectionHeader.bind(this)}
+          renderRow={message => <MessageCell message={message} />} />
         {this._renderReloadButton()}
       </View>
-    )
+    );
   }
 }

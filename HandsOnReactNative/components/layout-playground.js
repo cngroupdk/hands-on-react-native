@@ -1,6 +1,6 @@
 // flex-box playground :)
 // put these lines instead of Home in index.ios(.android).js
-// export Layout from './layout-playground'
+// export Layout from './components/layout-playground'
 // <LayoutPlayground />
 
 
@@ -22,51 +22,52 @@ import {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
+    flex: 1,
     padding: 30,
-    backgroundColor:'lightblue',
+    backgroundColor: 'lightblue',
     // flexDirection: 'row',
-    // alignItems: 'flex-end',
-    // justifyContent: 'center',
+    alignItems: 'flex-end',
+    justifyContent: 'center',
   },
   view1: {
-    // alignSelf: 'flex-start',
+    alignSelf: 'flex-start',
     // flex: 1,
     width: 30,
     height: 30,
     backgroundColor: 'red',
   },
   view2: {
-    // alignSelf: 'center',
+    alignSelf: 'center',
     // flex: 2,
     width: 30,
     height: 30,
     backgroundColor: 'green',
   },
   view3: {
-    // flex: 3,
+    // flex: 1,
     width: 30,
     height: 30,
     backgroundColor: 'blue',
   },
-
+  boxText: {
+    textAlign: 'center',
+  },
 });
 
 export default class LayoutPlayground extends React.Component {
-
   render() {
     return (
       <View style={styles.container}>
         <View style={styles.view1}>
-          <Text style={{textAlign:'center' }}>1</Text>
+          <Text style={styles.boxText}>1</Text>
         </View>
         <View style={styles.view2}>
-          <Text style={{textAlign:'center' }}>2</Text>
+          <Text style={styles.boxText}>2</Text>
         </View>
         <View style={styles.view3}>
-          <Text style={{textAlign:'center' }}>3</Text>
+          <Text style={styles.boxText}>3</Text>
         </View>
       </View>
-    )
+    );
   }
 }
