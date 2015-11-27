@@ -17,7 +17,7 @@ var StatusCell = React.createClass({
         <Text>{status.text}</Text>
       </View>
     );
-  }
+  },
 });
 
 var styles = StyleSheet.create({
