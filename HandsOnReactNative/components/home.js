@@ -1,5 +1,6 @@
 import React from 'react-native';
 import {
+  Platform,
   StyleSheet,
   Text,
   View,
@@ -13,7 +14,7 @@ import MessageCell from './message-cell';
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 20,
+    paddingTop: Platform.OS === 'ios' ? 20 : 0,
     flex: 1,
   },
   loadingContainer: {
