@@ -1,19 +1,15 @@
-'use strict';
-
 var React = require('react-native');
 var {
   AppRegistry,
   ListView,
-  StyleSheet,
-  ScrollView,
   StatusBarIOS,
+  StyleSheet,
   Text,
   View,
 } = React;
 
-var StatusCell = require('./cell');
-
 var DATA = require('./simple.json');
+var StatusCell = require('./cell');
 
 var HandsOnReactNative = React.createClass({
   getInitialState() {
@@ -21,96 +17,75 @@ var HandsOnReactNative = React.createClass({
       rowHasChanged: (r1, r2) => r1 !== r2,
       sectionHeaderHasChanged: (s1, s2) => s1 !== s2,
     });
-    return {
-        ds: ds,
-        data: null,
-    }
-  },
 
-  _refreshData() {
-    fetch('http://46.101.203.134/simple.json').then((response) => {
-        return response.json()
-    }).then((json) => {
-        this.setState({
-            data: json,
-        })
-    })
+    return {
+      ds: ds,
+      data: null,
+    };
   },
 
   componentDidMount() {
+    StatusBarIOS.setHidden(true, false);
     this._refreshData();
+  },
+
+  _refreshData() {
+    fetch('http://46.101.203.134/simple.json').then(response => {
+      return response.json();
+    }).then(json => {
+      this.setState({
+        data: json,
+      });
+    });
   },
 
   _renderSectionHeader(hashtag) {
     return (
-        <View style={[styles.sectionHeader,
-        styles.sectionHeaderOther]}>
-            <Text style={styles.sectionHeaderText}>#{hashtag}</Text>
-        </View>
+      <View style={styles.sectionHeader}>
+        <Text style={styles.sectionHeaderText}>#{hashtag}</Text>
+      </View>
     );
   },
 
   _renderCell(status) {
-    return <Text>{status.text}</Text>
+    return (
+      <Text>{status.text}</Text>
+    );
   },
 
-  render: function() {
-    var groups = {}
-    if (this.state.data) {
-        groups = this.state.data.groups
-    } else {
-        return <View>
-            <Text>Loading...</Text>
-            <Text>Loading...</Text>
-            <Text>Loading...</Text>
-            <Text>Loading...</Text>
-        </View>;
+  render() {
+    if (!this.state.data) {
+      return (
+        <View style={styles.loadingWrapper}>
+          <Text>Loading...</Text>
+        </View>
+      );
     }
 
+    var groups = this.state.data.groups;
     var dataSource = this.state.ds.cloneWithRowsAndSections(groups);
 
     return (
-      <ListView dataSource={dataSource}
-        renderSectionHeader={
-        (sectionData, hashtag) => {
-            return this._renderSectionHeader(hashtag);
-        }}
-        renderRow={
-          (status) => <StatusCell status={status} />
-        }/>
+      <ListView
+        dataSource={dataSource}
+        renderSectionHeader={(sectionData, hashtag) => this._renderSectionHeader(hashtag)}
+        renderRow={status => <StatusCell status={status} />} />
     );
-  }
+  },
 });
 
 var styles = StyleSheet.create({
-  scrollView: {
+  loadingWrapper: {
+    paddingTop: 100,
+    alignSelf: 'center',
   },
   sectionHeader: {
     alignSelf: 'stretch',
     backgroundColor: 'lightgray',
     padding: 5,
   },
-  sectionHeaderOther: {
-  },
   sectionHeaderText: {
     fontWeight: 'bold',
   },
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
 });
-
 AppRegistry.registerComponent('HandsOnReactNative', () => HandsOnReactNative);
