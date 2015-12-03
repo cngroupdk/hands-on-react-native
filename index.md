@@ -18,7 +18,25 @@ This git repo containse all materials used on Hands on React Native workshop. Wo
   * for Android, Windows, or Linux see: [Android Setup](https://facebook.github.io/react-native/docs/android-setup.html)
 * after installation please check that `react-native init AwesomeProject` is working and that you can run React Native application in iOS Simulator or Android Emulator.
 
-### Authors and Contributors
+## Slides
+
+See **[slides](https://github.com/cngroupdk/hands-on-react-native/tree/master/server)** folder in git repo.
+
+## Code
+
+### Example Code
+
+App as it has been prepared before the workshop: see **[HandsOnReactNative-Example](https://github.com/cngroupdk/hands-on-react-native/tree/master/HandsOnReactNative-Example)** folder in git repo.
+
+### Workshop Code
+
+App as it has been done during the workshop: see **[HandsOnReactNative-Workshop](https://github.com/cngroupdk/hands-on-react-native/tree/master/HandsOnReactNative-Workshop)** folder in git repo.
+
+### App Sererver
+
+See **[server](https://github.com/cngroupdk/hands-on-react-native/tree/master/server)** folder in git repo.
+
+## Authors and Contributors
 Tomáš Horáček ([@heracek](https://github.com/heracek)), Lenka Vondráčková ([@lenkavon](https://github.com/lenkavon)), and CN Group ([@cngroupdk](https://github.com/cngroupdk)).
 
 ### Support or Contact
