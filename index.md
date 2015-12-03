@@ -20,7 +20,7 @@ This git repo containse all materials used on Hands on React Native workshop. Wo
 
 ## Slides
 
-See **[slides](https://github.com/cngroupdk/hands-on-react-native/tree/master/server)** folder in git repo.
+See **[slides](https://github.com/cngroupdk/hands-on-react-native/tree/master/slides)** folder in git repo.
 
 ## Code
 
