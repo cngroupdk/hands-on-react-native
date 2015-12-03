@@ -70,7 +70,7 @@ export default class Home extends React.Component {
       isLoading: true,
     });
 
-    fetch('http://46.101.203.134/simple.json').then(response => {
+    fetch('http://cngroupdk.github.io/hands-on-react-native/api/simple.json').then(response => {
       return response.json();
     }).then(json => {
       this.setState({

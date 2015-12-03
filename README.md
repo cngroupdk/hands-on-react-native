@@ -4,7 +4,7 @@
 
 React Native Docs: http://facebook.github.io/react-native/docs/
 
-Server API: http://46.101.203.134/simple.json
+Server API: http://cngroupdk.github.io/hands-on-react-native/api/simple.json
 
 Twitter Hash Tag: [#handsonrn](https://twitter.com/search?q=%23handsonrn&src=typd)
 
