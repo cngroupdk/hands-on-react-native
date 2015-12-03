@@ -1,0 +1,1384 @@
+{
+  "groups": {
+    "spadloto": [
+      {
+        "metadata": {
+          "iso_language_code": "und",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 17:14:17 +0000 2015",
+        "id": 669202388281004000,
+        "id_str": "669202388281004032",
+        "text": "RT @cngroup_cz: Nový link na živý stream: https://t.co/dYSDmOWx5i #spadloto #HandsonRN",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 285615728,
+          "id_str": "285615728",
+          "name": "Tomas Metz",
+          "screen_name": "tommmetz",
+          "location": "Czech republic",
+          "description": "Independent developer & coffee lover",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 169,
+          "friends_count": 480,
+          "listed_count": 19,
+          "created_at": "Thu Apr 21 13:44:02 +0000 2011",
+          "favourites_count": 6731,
+          "utc_offset": 3600,
+          "time_zone": "Prague",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 6394,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/2581886137/w9e1g1el4i3xi0lskaa6_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/2581886137/w9e1g1el4i3xi0lskaa6_normal.jpeg",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+          "metadata": {
+            "iso_language_code": "und",
+            "result_type": "recent"
+          },
+          "created_at": "Tue Nov 24 17:11:30 +0000 2015",
+          "id": 669201687576518700,
+          "id_str": "669201687576518656",
+          "text": "Nový link na živý stream: https://t.co/dYSDmOWx5i #spadloto #HandsonRN",
+          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+          "truncated": false,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 3427671862,
+            "id_str": "3427671862",
+            "name": "CN Group CZ",
+            "screen_name": "cngroup_cz",
+            "location": "Czech Republic",
+            "description": "Nearshore Software Development. Testing and QA services. IT services. Consulting for outsourcing. ISTQB training. Agile development.",
+            "url": "http://t.co/UE8a5a9dtS",
+            "entities": {
+              "url": {
+                "urls": [
+                  {
+                    "url": "http://t.co/UE8a5a9dtS",
+                    "expanded_url": "http://www.cngroup.dk",
+                    "display_url": "cngroup.dk",
+                    "indices": [
+                      0,
+                      22
+                    ]
+                  }
+                ]
+              },
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 40,
+            "friends_count": 114,
+            "listed_count": 2,
+            "created_at": "Mon Aug 17 08:10:42 +0000 2015",
+            "favourites_count": 9,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 55,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "ED1848",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3427671862/1439815636",
+            "profile_link_color": "ED1848",
+            "profile_sidebar_border_color": "000000",
+            "profile_sidebar_fill_color": "000000",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 1,
+          "favorite_count": 2,
+          "entities": {
+            "hashtags": [
+              {
+                "text": "spadloto",
+                "indices": [
+                  50,
+                  59
+                ]
+              },
+              {
+                "text": "HandsonRN",
+                "indices": [
+                  60,
+                  70
+                ]
+              }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/dYSDmOWx5i",
+                "expanded_url": "http://youtu.be/yylA3hpw_r0",
+                "display_url": "youtu.be/yylA3hpw_r0",
+                "indices": [
+                  26,
+                  49
+                ]
+              }
+            ]
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "und"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "spadloto",
+              "indices": [
+                66,
+                75
+              ]
+            },
+            {
+              "text": "HandsonRN",
+              "indices": [
+                76,
+                86
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "cngroup_cz",
+              "name": "CN Group CZ",
+              "id": 3427671862,
+              "id_str": "3427671862",
+              "indices": [
+                3,
+                14
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/dYSDmOWx5i",
+              "expanded_url": "http://youtu.be/yylA3hpw_r0",
+              "display_url": "youtu.be/yylA3hpw_r0",
+              "indices": [
+                42,
+                65
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und",
+        "_hashtags": [
+          "spadloto"
+        ]
+      },
+      {
+        "metadata": {
+          "iso_language_code": "und",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 17:11:30 +0000 2015",
+        "id": 669201687576518700,
+        "id_str": "669201687576518656",
+        "text": "Nový link na živý stream: https://t.co/dYSDmOWx5i #spadloto #HandsonRN",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3427671862,
+          "id_str": "3427671862",
+          "name": "CN Group CZ",
+          "screen_name": "cngroup_cz",
+          "location": "Czech Republic",
+          "description": "Nearshore Software Development. Testing and QA services. IT services. Consulting for outsourcing. ISTQB training. Agile development.",
+          "url": "http://t.co/UE8a5a9dtS",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/UE8a5a9dtS",
+                  "expanded_url": "http://www.cngroup.dk",
+                  "display_url": "cngroup.dk",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 40,
+          "friends_count": 114,
+          "listed_count": 2,
+          "created_at": "Mon Aug 17 08:10:42 +0000 2015",
+          "favourites_count": 9,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 55,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "ED1848",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3427671862/1439815636",
+          "profile_link_color": "ED1848",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 2,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "spadloto",
+              "indices": [
+                50,
+                59
+              ]
+            },
+            {
+              "text": "HandsonRN",
+              "indices": [
+                60,
+                70
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/dYSDmOWx5i",
+              "expanded_url": "http://youtu.be/yylA3hpw_r0",
+              "display_url": "youtu.be/yylA3hpw_r0",
+              "indices": [
+                26,
+                49
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und",
+        "_hashtags": [
+          "spadloto"
+        ]
+      }
+    ],
+    "goreactnative": [
+      {
+        "metadata": {
+          "iso_language_code": "und",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 16:52:57 +0000 2015",
+        "id": 669197019743969300,
+        "id_str": "669197019743969281",
+        "text": "Podle prvních propočtů to vypadá, že tu je 65 velice reactivních lidí :-) #HandsonRN #GoReactNative https://t.co/vwXsu2WFcQ",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3427671862,
+          "id_str": "3427671862",
+          "name": "CN Group CZ",
+          "screen_name": "cngroup_cz",
+          "location": "Czech Republic",
+          "description": "Nearshore Software Development. Testing and QA services. IT services. Consulting for outsourcing. ISTQB training. Agile development.",
+          "url": "http://t.co/UE8a5a9dtS",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/UE8a5a9dtS",
+                  "expanded_url": "http://www.cngroup.dk",
+                  "display_url": "cngroup.dk",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 40,
+          "friends_count": 114,
+          "listed_count": 2,
+          "created_at": "Mon Aug 17 08:10:42 +0000 2015",
+          "favourites_count": 9,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 55,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "ED1848",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3427671862/1439815636",
+          "profile_link_color": "ED1848",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "HandsonRN",
+              "indices": [
+                74,
+                84
+              ]
+            },
+            {
+              "text": "GoReactNative",
+              "indices": [
+                85,
+                99
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 669197018015907800,
+              "id_str": "669197018015907840",
+              "indices": [
+                100,
+                123
+              ],
+              "media_url": "http://pbs.twimg.com/media/CUl3JG-WwAAlj-f.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/CUl3JG-WwAAlj-f.jpg",
+              "url": "https://t.co/vwXsu2WFcQ",
+              "display_url": "pic.twitter.com/vwXsu2WFcQ",
+              "expanded_url": "http://twitter.com/cngroup_cz/status/669197019743969281/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 340,
+                  "h": 255,
+                  "resize": "fit"
+                },
+                "medium": {
+                  "w": 600,
+                  "h": 450,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "large": {
+                  "w": 1024,
+                  "h": 768,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und",
+        "_hashtags": [
+          "goreactnative"
+        ]
+      }
+    ],
+    "cngroup": [
+      {
+        "metadata": {
+          "iso_language_code": "und",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 13:44:47 +0000 2015",
+        "id": 669149668257984500,
+        "id_str": "669149668257984512",
+        "text": "V 17:00 odstartujeme v Node5 první ze sérii přednášek \"Hands on\" na téma \"Hands on React Native\".  #handsonrn #CNGroup #whatisyourReaction",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3431607983,
+          "id_str": "3431607983",
+          "name": "Jan Černý",
+          "screen_name": "ScrumNinjaCZ",
+          "location": "",
+          "description": "",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 8,
+          "friends_count": 25,
+          "listed_count": 0,
+          "created_at": "Wed Aug 19 15:14:23 +0000 2015",
+          "favourites_count": 4,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 1,
+          "lang": "cs",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/634021200583360512/2ehSXKrD_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/634021200583360512/2ehSXKrD_normal.jpg",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "handsonrn",
+              "indices": [
+                99,
+                109
+              ]
+            },
+            {
+              "text": "CNGroup",
+              "indices": [
+                110,
+                118
+              ]
+            },
+            {
+              "text": "whatisyourReaction",
+              "indices": [
+                119,
+                138
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "und",
+        "_hashtags": [
+          "cngroup",
+          "whatisyourreaction"
+        ]
+      }
+    ],
+    "reactnative": [
+      {
+        "metadata": {
+          "iso_language_code": "und",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 13:28:14 +0000 2015",
+        "id": 669145500411654100,
+        "id_str": "669145500411654144",
+        "text": "Už za pár hodin to vypukne. Těšíme se na vás! https://t.co/FT9clrV8PU #handsonrn #reactnative #excited",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3427671862,
+          "id_str": "3427671862",
+          "name": "CN Group CZ",
+          "screen_name": "cngroup_cz",
+          "location": "Czech Republic",
+          "description": "Nearshore Software Development. Testing and QA services. IT services. Consulting for outsourcing. ISTQB training. Agile development.",
+          "url": "http://t.co/UE8a5a9dtS",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/UE8a5a9dtS",
+                  "expanded_url": "http://www.cngroup.dk",
+                  "display_url": "cngroup.dk",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 40,
+          "friends_count": 114,
+          "listed_count": 2,
+          "created_at": "Mon Aug 17 08:10:42 +0000 2015",
+          "favourites_count": 9,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 55,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "ED1848",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/633191286116347904/HY48_rrz_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3427671862/1439815636",
+          "profile_link_color": "ED1848",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "handsonrn",
+              "indices": [
+                70,
+                80
+              ]
+            },
+            {
+              "text": "reactnative",
+              "indices": [
+                81,
+                93
+              ]
+            },
+            {
+              "text": "excited",
+              "indices": [
+                94,
+                102
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/FT9clrV8PU",
+              "expanded_url": "https://www.facebook.com/events/832011693587216/",
+              "display_url": "facebook.com/events/8320116…",
+              "indices": [
+                46,
+                69
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und",
+        "_hashtags": [
+          "reactnative",
+          "excited"
+        ]
+      },
+      {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 12:12:11 +0000 2015",
+        "id": 669126364876972000,
+        "id_str": "669126364876972034",
+        "text": "JSX is like a healthy vegetable that tastes like decadent chocolate cake. You feel guilty, but it’s good for you. #handsonrn #reactNative",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 2831387901,
+          "id_str": "2831387901",
+          "name": "Robert Szlezák",
+          "screen_name": "JeffoSzlezak",
+          "location": "",
+          "description": "",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 9,
+          "friends_count": 109,
+          "listed_count": 0,
+          "created_at": "Wed Oct 15 10:55:00 +0000 2014",
+          "favourites_count": 9,
+          "utc_offset": 3600,
+          "time_zone": "Prague",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 3,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/522733601964564480/ClwEUZK7_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/522733601964564480/ClwEUZK7_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2831387901/1413465536",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "handsonrn",
+              "indices": [
+                114,
+                124
+              ]
+            },
+            {
+              "text": "reactNative",
+              "indices": [
+                125,
+                137
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en",
+        "_hashtags": [
+          "reactnative"
+        ]
+      }
+    ],
+    "noragamiaragoto": [
+      {
+        "metadata": {
+          "iso_language_code": "und",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 12:19:06 +0000 2015",
+        "id": 669128105202683900,
+        "id_str": "669128105202683904",
+        "text": "#handsonrn #NoragamiAragoto",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 16694103,
+          "id_str": "16694103",
+          "name": "buri_buster",
+          "screen_name": "buri_buster",
+          "location": "",
+          "description": "",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 5,
+          "friends_count": 8,
+          "listed_count": 0,
+          "created_at": "Sat Oct 11 07:36:39 +0000 2008",
+          "favourites_count": 0,
+          "utc_offset": 3600,
+          "time_zone": "Prague",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 168,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "EBEBEB",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/188207798/827_3048_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/188207798/827_3048_normal.jpg",
+          "profile_link_color": "990000",
+          "profile_sidebar_border_color": "DFDFDF",
+          "profile_sidebar_fill_color": "F3F3F3",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "handsonrn",
+              "indices": [
+                0,
+                10
+              ]
+            },
+            {
+              "text": "NoragamiAragoto",
+              "indices": [
+                11,
+                27
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "und",
+        "_hashtags": [
+          "noragamiaragoto"
+        ]
+      }
+    ],
+    "codelikehell": [
+      {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 12:10:11 +0000 2015",
+        "id": 669125860130234400,
+        "id_str": "669125860130234368",
+        "text": "We organize \"Hands on React native\" today, wanna come? https://t.co/w0WDt56S9R #handsonrn #codelikehell :-)",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 285615728,
+          "id_str": "285615728",
+          "name": "Tomas Metz",
+          "screen_name": "tommmetz",
+          "location": "Czech republic",
+          "description": "Independent developer & coffee lover",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 169,
+          "friends_count": 480,
+          "listed_count": 19,
+          "created_at": "Thu Apr 21 13:44:02 +0000 2011",
+          "favourites_count": 6731,
+          "utc_offset": 3600,
+          "time_zone": "Prague",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 6394,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/2581886137/w9e1g1el4i3xi0lskaa6_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/2581886137/w9e1g1el4i3xi0lskaa6_normal.jpeg",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "handsonrn",
+              "indices": [
+                79,
+                89
+              ]
+            },
+            {
+              "text": "codelikehell",
+              "indices": [
+                90,
+                103
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/w0WDt56S9R",
+              "expanded_url": "https://www.facebook.com/events/832011693587216/",
+              "display_url": "facebook.com/events/8320116…",
+              "indices": [
+                55,
+                78
+              ]
+            }
+          ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en",
+        "_hashtags": [
+          "codelikehell"
+        ]
+      }
+    ],
+    "today": [
+      {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 11:58:56 +0000 2015",
+        "id": 669123027498610700,
+        "id_str": "669123027498610688",
+        "text": "Hands on React Native #today #handsonrn",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 5512552,
+          "id_str": "5512552",
+          "name": "Tomáš Horáček",
+          "screen_name": "heracek",
+          "location": "Prague, Czech Republic",
+          "description": "iOS/Web developer (#ObjC, #coffescript, #emberjs, #python, #django and #rails); barefoot runner; amateur actor; mac lover; lomographer",
+          "url": "http://t.co/hMdoui7L8Q",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/hMdoui7L8Q",
+                  "expanded_url": "http://tomashoracek.com",
+                  "display_url": "tomashoracek.com",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 258,
+          "friends_count": 397,
+          "listed_count": 14,
+          "created_at": "Thu Apr 26 00:46:36 +0000 2007",
+          "favourites_count": 1072,
+          "utc_offset": 3600,
+          "time_zone": "Prague",
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 374,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/21852372/g4qMbKQ-J0u_Ymb_Q2ZcBmILbNWVOVbKzmexb02mHj-C2PVVoAj7tT4qvMOZ-0ff_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/21852372/g4qMbKQ-J0u_Ymb_Q2ZcBmILbNWVOVbKzmexb02mHj-C2PVVoAj7tT4qvMOZ-0ff_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/5512552/1360232633",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "today",
+              "indices": [
+                22,
+                28
+              ]
+            },
+            {
+              "text": "handsonrn",
+              "indices": [
+                29,
+                39
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en",
+        "_hashtags": [
+          "today"
+        ]
+      }
+    ],
+    "hashtaghorror": [
+      {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 11:30:20 +0000 2015",
+        "id": 669115831683571700,
+        "id_str": "669115831683571712",
+        "text": "Today we are about to get Reactively Native!\n#HandsOnRN #hashtaghorror",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 188716950,
+          "id_str": "188716950",
+          "name": "Michal Vrška",
+          "screen_name": "raiven66",
+          "location": "",
+          "description": "",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 12,
+          "friends_count": 80,
+          "listed_count": 1,
+          "created_at": "Thu Sep 09 12:31:23 +0000 2010",
+          "favourites_count": 0,
+          "utc_offset": 7200,
+          "time_zone": "Athens",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 21,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/2013902211/image_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/2013902211/image_normal.jpg",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "HandsOnRN",
+              "indices": [
+                45,
+                55
+              ]
+            },
+            {
+              "text": "hashtaghorror",
+              "indices": [
+                56,
+                70
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en",
+        "_hashtags": [
+          "hashtaghorror"
+        ]
+      }
+    ],
+    "excited": [
+      {
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "created_at": "Tue Nov 24 11:09:36 +0000 2015",
+        "id": 669110614409781200,
+        "id_str": "669110614409781248",
+        "text": "In the middle of preparation of mini-talks for todays #handsonrn - #excited and #nervous at the same time",
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 805197354,
+          "id_str": "805197354",
+          "name": "Lenka Vondr",
+          "screen_name": "lenkavon",
+          "location": "Hlavní město Praha",
+          "description": "ReactNativeDev, ForFunRunner, Foodie",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 14,
+          "friends_count": 44,
+          "listed_count": 0,
+          "created_at": "Wed Sep 05 19:11:43 +0000 2012",
+          "favourites_count": 7,
+          "utc_offset": 3600,
+          "time_zone": "Prague",
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 8,
+          "lang": "cs",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/661579706291134464/JnI8e3Y7_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/661579706291134464/JnI8e3Y7_normal.jpg",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "handsonrn",
+              "indices": [
+                54,
+                64
+              ]
+            },
+            {
+              "text": "excited",
+              "indices": [
+                67,
+                75
+              ]
+            },
+            {
+              "text": "nervous",
+              "indices": [
+                80,
+                88
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en",
+        "_hashtags": [
+          "excited",
+          "nervous"
+        ]
+      }
+    ]
+  },
+  "filename": "2015-11-25-10-08-35-full.json"
+}
